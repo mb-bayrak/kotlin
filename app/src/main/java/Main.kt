@@ -17,7 +17,7 @@ fun main(args: Array<String>) {
 
     dilek.weapon = sword
 
-//    byrock.show()
+    byrock.show()
 //
 //    dilek.show()
 
