@@ -1,0 +1,35 @@
+println("Enter your age: ")
+    val age = readLine()?.toInt()
+    println("You entered : $age")
+
+    var message : String
+
+    message = ""
+
+    if(age != null) {
+        message = when {
+            age < 18 -> "You are too young to vote"
+            age in 19..99 -> "Just about time"
+            else -> "forget it"
+        }
+    }
+
+    println(message)
+
+
+
+    class Player(val name: String) {
+
+        fun show(){
+        }
+    }
+
+
+class Player(private val name: String,
+             private var lives: Int = 3,
+             private var level: Int = 1,
+             private var score: Int = 0) {}
+
+var weapon: Weapon = Weapon( "Fist", 1)
+
+byrock.weapon.name.toUpperCase()
